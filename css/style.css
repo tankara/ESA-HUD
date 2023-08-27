@@ -1,0 +1,54 @@
+#tablo{
+
+    color: white;
+    border-collapse: collapse;
+    width: 50%;
+    margin-right: 20px;
+    
+}
+
+
+#cell{
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+}
+
+#agent-img{
+    width: 50px;
+}
+
+#skill-img{
+    width: 40px;
+}
+
+#weapon-img{
+    width: 200px;
+}
+
+#container{
+    display: flex;
+}
+.armor{
+    width: 50px;
+}
+
+.pistols{
+
+}
+
+.lights{
+    
+}
+
+.blue{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.red{
+    background: rgb(36,0,0);
+background: linear-gradient(-90deg, rgba(36,0,0,1) 0%, rgba(121,9,9,1) 35%, rgba(255,0,0,1) 100%);
+}
